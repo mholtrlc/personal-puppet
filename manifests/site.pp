@@ -1,3 +1,3 @@
 node default {
-    class {'grahamconfig': }
+    include mac_admin::login_window_hostname
 }
