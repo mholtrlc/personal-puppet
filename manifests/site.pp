@@ -8,7 +8,5 @@ node default {
         ensure => directory,
     }
 
-    include mac_admin::login_window_hostname
-
     include grahamconfig
 }
