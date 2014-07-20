@@ -15,3 +15,9 @@ mod 'repository',
 
 mod 'scriptrunner',
     :git => 'https://github.com/grahamgilbert/puppet-scriptrunner'
+
+mod 'stdlib',
+    :git => 'https://github.com/puppetlabs/puppetlabs-stdlib'
+
+mod 'osx',
+    :git => 'https://github.com/boxen/puppet-osx'
