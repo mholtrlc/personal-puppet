@@ -12,3 +12,6 @@ mod 'mac_facts',
 
 mod 'repository',
     :git => 'https://github.com/boxen/puppet-repository'
+
+mod 'scriptrunner',
+    :git => 'https://github.com/grahamgilbert/puppet-scriptrunner'
