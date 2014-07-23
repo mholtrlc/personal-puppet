@@ -8,5 +8,10 @@ node default {
         ensure => directory,
     }
 
+    # Turn off filebucket
+    File {
+        filebucket => none,
+    }
+
     include grahamconfig
 }
