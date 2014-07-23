@@ -10,7 +10,7 @@ node default {
 
     # Turn off filebucket
     File {
-        filebucket => none,
+        backup => false,
     }
 
     include grahamconfig
