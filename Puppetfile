@@ -24,3 +24,6 @@ mod 'osx',
 
 mod 'vagrant',
     :git => 'https://github.com/boxen/puppet-vagrant'
+
+mode 'git',
+    :git => 'https://github.com/boxen/puppet-git'
