@@ -27,3 +27,6 @@ mod 'vagrant',
 
 mod 'git',
     :git => 'https://github.com/boxen/puppet-git'
+
+mod 'inifile',
+    git => 'https://github.com/puppetlabs/puppetlabs-inifile'
