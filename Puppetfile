@@ -33,3 +33,6 @@ mod 'inifile',
 
 mod 'property_list_key',
     :git => 'https://github.com/glarizza/puppet-property_list_key'
+
+mod 'managedmac',
+    :git => 'https://github.com/dayglojesus/managedmac'
