@@ -30,3 +30,6 @@ mod 'git',
 
 mod 'inifile',
     :git => 'https://github.com/puppetlabs/puppetlabs-inifile'
+
+mod 'property_list_key',
+    :git => 'https://github.com/glarizza/puppet-property_list_key'
