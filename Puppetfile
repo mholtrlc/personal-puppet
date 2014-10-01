@@ -36,4 +36,4 @@ mod 'property_list_key',
 
 mod 'managedmac',
     :git => 'https://github.com/dayglojesus/managedmac',
-    :ref => 'v0.5.0'
+    
