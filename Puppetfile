@@ -13,8 +13,8 @@ mod 'mac_facts',
 mod 'repository',
     :git => 'https://github.com/boxen/puppet-repository'
 
-mod 'scriptrunner',
-    :git => 'https://github.com/grahamgilbert/puppet-scriptrunner'
+mod 'outset',
+    :git => 'https://github.com/grahamgilbert/puppet-outset'
 
 mod 'stdlib',
     :git => 'https://github.com/puppetlabs/puppetlabs-stdlib'
