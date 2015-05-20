@@ -38,4 +38,4 @@ mod 'managedmac',
     :git => 'https://github.com/dayglojesus/managedmac'
 
 mod 'puppet_run',
-    :git => 'https://github.com/grahamgilbert/puppet_run'
+    :git => 'https://github.com/grahamgilbert/puppet-puppet_run'
