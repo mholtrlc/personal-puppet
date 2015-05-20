@@ -1,3 +1,4 @@
+hiera_include('classes')
 node default {
 
     file {'/var/lib/puppet':
@@ -12,6 +13,4 @@ node default {
     File {
         backup => false,
     }
-
-    include grahamconfig
 }
