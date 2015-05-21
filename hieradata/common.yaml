@@ -1,16 +1,7 @@
 ---
 classes:
- - managedmac
+ - mac_admin
  - puppet_run
 
-managedmac::mobileconfigs::defaults:
-  description:  'Installed by Puppet.'
-  organization: 'Graham Gilbert'
-managedmac::mobileconfigs::payloads:
-  'managedmac.ManagedInstalls.alacarte':
-    content:
-      SoftwareRepoURL: https://munki.grahamgilbert.com
-      InstallAppleSoftwareUpdates: true
-      PayloadType: 'ManagedInstalls'
-    displayname: 'Managed Mac: Munki Settings'
+mac_admin::munki::repourl: https://munki.grahamgilbert.com
 "puppet_run::server": puppet.grahamgilbert.com
