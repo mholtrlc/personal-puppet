@@ -4,4 +4,4 @@ classes:
  - puppet_run
 
 mac_admin::munki::repourl: https://munki.grahamgilbert.com
-"puppet_run::server": puppet.grahamgilbert.com
+"puppet_run::server_name": puppet.grahamgilbert.com
