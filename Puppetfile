@@ -35,7 +35,8 @@ mod 'property_list_key',
     :git => 'https://github.com/glarizza/puppet-property_list_key'
 
 mod 'managedmac',
-    :git => 'https://github.com/dayglojesus/managedmac'
+    :git => 'https://github.com/dayglojesus/managedmac',
+    :ref => 'v0.6.0'
 
 mod 'puppet_run',
     :git => 'https://github.com/grahamgilbert/puppet-puppet_run'
