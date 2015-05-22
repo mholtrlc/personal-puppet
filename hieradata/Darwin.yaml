@@ -1,5 +1,5 @@
 ---
 classes:
-     - mac_admin
+     - mac_admin::munki
 
 mac_admin::munki::repourl: https://munki.grahamgilbert.com
