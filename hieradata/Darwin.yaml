@@ -2,7 +2,7 @@
 classes:
   - managedmac
 
-managedmac::organization: Graham Gilbert
+managedmac::organization: 'Graham Gilbert'
 managedmac::ntp::enable: true
 managedmac::ntp::servers:
   - time.euro.apple.com
