@@ -8,6 +8,10 @@ managedmac::ntp::servers:
   - time.euro.apple.com
   - time1.google.com
 
+managedmac::mobileconfigs::defaults:
+  description:  'Installed by Puppet.'
+  organization: 'Graham Gilbert'
+
 managedmac::mobileconfigs::payloads:
   'managedmac.ManagedInstalls.alacarte':
     content:
