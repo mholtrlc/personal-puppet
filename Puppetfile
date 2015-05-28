@@ -40,3 +40,6 @@ mod 'managedmac',
 
 mod 'puppet_run',
     :git => 'https://github.com/grahamgilbert/puppet-puppet_run'
+
+mod 'munki_certs',
+    :git => 'https://github.com/grahamgilbert/puppet-munki_certs'
