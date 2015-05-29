@@ -18,3 +18,10 @@ managedmac::mobileconfigs::payloads:
       SoftwareRepoURL: https://munki.grahamgilbert.com
       PayloadType: 'ManagedInstalls'
     displayname: 'Managed Mac: Munki Settings'
+
+managedmac::mobileconfigs::payloads:
+  'managedmac.sal.alacarte':
+    content:
+      ServerURL: https://sal.grahamgilbert.com
+      PayloadType: 'com.salsoftware.sal'
+    displayname: 'Managed Mac: Sal Settings'
