@@ -43,3 +43,6 @@ mod 'puppet_run',
 
 mod 'munki_certs',
     :git => 'https://github.com/grahamgilbert/puppet-munki_certs'
+
+mod 'sal_client',
+    :git => 'https://github.com/grahamgilbert/puppet-sal_client'

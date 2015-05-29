@@ -2,9 +2,4 @@
 classes:
   - grahamconfig
 
-managedmac::mobileconfigs::payloads:
-  'managedmac.salkey.alacarte':
-    content:
-      key: xsommwafoo8y80fb6rvijquybz8oh3f2g265bmav9c5wxrjm6lamn972zoifax88v5ajic2vdll29n7ewnlue269nf1diqewuuvfyufz4e7qe0qz14ztm1asb2de6jcq
-      PayloadType: 'com.salsoftware.sal'
-    displayname: 'Managed Mac: Sal Key'
+sal_client::key: xsommwafoo8y80fb6rvijquybz8oh3f2g265bmav9c5wxrjm6lamn972zoifax88v5ajic2vdll29n7ewnlue269nf1diqewuuvfyufz4e7qe0qz14ztm1asb2de6jcq

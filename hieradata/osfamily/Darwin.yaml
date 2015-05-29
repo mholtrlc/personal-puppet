@@ -2,7 +2,7 @@
 classes:
   - managedmac
   - munki_certs
-  
+
 managedmac::organization: 'Graham Gilbert'
 managedmac::ntp::enable: true
 managedmac::ntp::servers:
@@ -20,9 +20,4 @@ managedmac::mobileconfigs::payloads:
       PayloadType: 'ManagedInstalls'
     displayname: 'Managed Mac: Munki Settings'
 
-managedmac::mobileconfigs::payloads:
-  'managedmac.sal.alacarte':
-    content:
-      ServerURL: https://sal.grahamgilbert.com
-      PayloadType: 'com.salsoftware.sal'
-    displayname: 'Managed Mac: Sal Settings'
+sal_client::server: https://sal.grahamgilbert.com
