@@ -2,6 +2,7 @@
 classes:
   - managedmac
   - munki_certs
+  - sal_client
 
 managedmac::organization: 'Graham Gilbert'
 managedmac::ntp::enable: true
