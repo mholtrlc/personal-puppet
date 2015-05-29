@@ -1,5 +1,4 @@
 ---
 classes:
   - puppet_run
-  - munki_certs
 "puppet_run::server_name": puppet.grahamgilbert.com

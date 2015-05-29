@@ -1,7 +1,8 @@
 ---
 classes:
   - managedmac
-
+  - munki_certs
+  
 managedmac::organization: 'Graham Gilbert'
 managedmac::ntp::enable: true
 managedmac::ntp::servers:
