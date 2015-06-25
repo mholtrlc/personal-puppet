@@ -22,3 +22,4 @@ managedmac::mobileconfigs::payloads:
     displayname: 'Managed Mac: Munki Settings'
 
 sal_client::server: https://sal.grahamgilbert.com
+sal_client::key: 8fapur96vkmq7d66sp8uc5ok7ub1xsdgxa6qawuug9tuy25tbos3j0apy0331bkq2o8h36couexlq32zzao81i5if2y34c0sjxoe1olgbhpxg0hgddtos0aargjhjjoy
