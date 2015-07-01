@@ -3,6 +3,7 @@ classes:
   - managedmac
   - munki_certs
   - sal_client
+  - mac_admin::munki
 
 managedmac::organization: 'Graham Gilbert'
 managedmac::ntp::enable: true
@@ -14,12 +15,14 @@ managedmac::mobileconfigs::defaults:
   description:  'Installed by Puppet.'
   organization: 'Graham Gilbert'
 
-managedmac::mobileconfigs::payloads:
-  'managedmac.ManagedInstalls.alacarte':
-    content:
-      SoftwareRepoURL: https://munki.grahamgilbert.com
-      PayloadType: 'ManagedInstalls'
-    displayname: 'Managed Mac: Munki Settings'
+# managedmac::mobileconfigs::payloads:
+#   'managedmac.ManagedInstalls.alacarte':
+#     content:
+#       SoftwareRepoURL: https://munki.grahamgilbert.com
+#       PayloadType: 'ManagedInstalls'
+#     displayname: 'Managed Mac: Munki Settings'
+
+mac_admin::munki::repourl: 'https://munki.grahamgilbert.com'
 
 sal_client::server: https://sal.grahamgilbert.com
 sal_client::key: 8fapur96vkmq7d66sp8uc5ok7ub1xsdgxa6qawuug9tuy25tbos3j0apy0331bkq2o8h36couexlq32zzao81i5if2y34c0sjxoe1olgbhpxg0hgddtos0aargjhjjoy
