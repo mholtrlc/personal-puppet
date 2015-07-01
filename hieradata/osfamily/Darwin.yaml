@@ -19,6 +19,7 @@ managedmac::mobileconfigs::payloads:
   'managedmac.ManagedInstalls.alacarte':
     content:
       SoftwareRepoURL: https://munki.grahamgilbert.com
+      InstallAppleSoftwareUpdates: true
       PayloadType: 'ManagedInstalls'
     displayname: 'Managed Mac: Munki Settings'
 
