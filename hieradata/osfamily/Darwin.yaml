@@ -5,7 +5,7 @@ classes:
   - sal_client
   - mac_admin::munki::munkitools
 
-managedmac::organization: 'Graham Gilbert'
+managedmac::organization: 'Real Life Church'
 managedmac::ntp::enable: true
 managedmac::ntp::servers:
   - time.euro.apple.com
@@ -13,15 +13,15 @@ managedmac::ntp::servers:
 
 managedmac::mobileconfigs::defaults:
   description:  'Installed by Puppet.'
-  organization: 'Graham Gilbert'
+  organization: 'Real Life Church'
 
 managedmac::mobileconfigs::payloads:
   'managedmac.ManagedInstalls.alacarte':
     content:
-      SoftwareRepoURL: https://munki.grahamgilbert.com
+      SoftwareRepoURL: https://munki01.reallifechurch.org
       InstallAppleSoftwareUpdates: true
       PayloadType: 'ManagedInstalls'
     displayname: 'Managed Mac: Munki Settings'
 
-sal_client::server: https://sal.grahamgilbert.com
-sal_client::key: 8fapur96vkmq7d66sp8uc5ok7ub1xsdgxa6qawuug9tuy25tbos3j0apy0331bkq2o8h36couexlq32zzao81i5if2y34c0sjxoe1olgbhpxg0hgddtos0aargjhjjoy
+sal_client::server: https://macnamer.reallifechurch.org.com:81
+sal_client::key: nxl6hgw5fqmiidv4pwbfpnft

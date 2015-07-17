@@ -1,8 +1,5 @@
-mod 'grahamconfig',
-    :git => 'https://github.com/grahamgilbert/puppet-grahamconfig'
-
 mod 'mac_admin',
-    :git => 'https://github.com/grahamgilbert/puppet-mac_admin'
+    :git => 'https://github.com/mholtrlc/puppet-mac_admin'
 
 mod 'mac_profiles_handler',
     :git => 'https://github.com/ryanycoleman/rcoleman-mac_profiles_handler'
@@ -41,9 +38,6 @@ mod 'managedmac',
 mod 'puppet_run',
     :git => 'https://github.com/grahamgilbert/puppet-puppet_run'
 
-mod 'munki_certs',
-    :git => 'https://github.com/grahamgilbert/puppet-munki_certs'
-
 mod 'sal_client',
-    :git => 'https://github.com/grahamgilbert/puppet-sal_client'
+    :git => 'https://github.com/mholtrlc/puppet-sal_client'
 
