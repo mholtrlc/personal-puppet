@@ -1,3 +1,6 @@
+mod 'grahamconfig',
+    :git => 'https://github.com/grahamgilbert/puppet-grahamconfig'
+
 mod 'mac_admin',
     :git => 'https://github.com/mholtrlc/puppet-mac_admin'
 
