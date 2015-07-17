@@ -47,5 +47,3 @@ mod 'munki_certs',
 mod 'sal_client',
     :git => 'https://github.com/grahamgilbert/puppet-sal_client'
 
-mod 'home_docker',
-    :git => 'git@github.com:grahamgilbert/puppet-home_docker.git'
